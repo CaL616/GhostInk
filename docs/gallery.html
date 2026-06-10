@@ -1,0 +1,191 @@
+<!-- Author: Carter Larson
+	 Date: 5/26/25
+	 File Name: gallery.html
+-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<!-- Favicon -->
+    <link rel="shortcut icon" href="images/letter-C.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="images/letter-C-32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+	<link rel="icon" sizes="192x192" href="images/android-chrome-192.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>GhostInk | Gallery</title>
+	
+	<!-- My Style Sheet -->
+	<link rel="stylesheet" href="css/styles.css">
+	
+  </head>
+  <body><!-- Bootstrap Navigation bar -->
+   <nav class="navbar navbar-expand-sm navbar-dark bg-purple fixed-top">
+    
+        <a class="navbar-brand" href="index.html">GhostInk</a>
+        
+        <!-- Hamburger menu icon -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- Nav Links -->
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="artists.html">Artists</a>
+                </li>
+				<li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+        </div>
+
+    </nav>
+    <!-- Header -->
+    <header class="jumbotron jumbotron-fluid text-center mt-5">
+      <div class="container">
+        <h1 class="display-1">Gallery</h1>
+      </div>
+    </header>
+	
+	<main class="container-fluid mt-5">
+	
+		<div id="buttons"></div>
+		<input id="filter-search" type="text" placeholder="Search artworks...">
+		
+		<div id="gallery">
+		<div class="row">
+		
+			<div class="col-sm-4 item" data-tags="larson, monster">
+				<figure>
+					<a href="contact.html"><img src="images/kaiju.jpg" alt="An ink drawing of a giant kaiju-like monster" class="img-fluid"></a>
+				</figure>
+				<p class="lead">"Kaiju" By Carter Larson</p>
+			</div>
+			<div class="col-sm-4 item" data-tags="hernandez, cat">
+				<figure>
+					<a href="nutrition.html"><img src="images/cat.jpg" alt="A cat sitting upright with a happy face." class="img-fluid"></a>
+				</figure>
+				<p class="lead">"My Pet Cat" by Cassie Hernandez</p>
+			</div>
+			<div class="col-sm-4 item" data-tags="hans, pokemon">
+				<figure>
+					<a href="about.html"><img src="images/redAndPika.jpg" alt="A Pokemon trainer and his Pikachu" class="img-fluid"></a>
+				</figure>
+				<p class="lead">"Red and Pika" By George Hans</p>
+				<p></p>
+			</div>
+			
+	
+		</div>
+		
+		<div class="row">
+		
+			<div class="col-sm-4 item" data-tags="larson, robot">
+				<figure>
+					<img src="images/robot.jpg" alt="A multiarmed robot and a rabit robot standing close to each other" class="img-fluid"></a>
+				</figure>
+				<p class="lead">"Arm-Bot" By Carter Larson</p>
+			</div>
+			<div class="col-sm-4 item" data-tags="hans, pokemon">
+				<figure>
+					<img src="images/blueYellow.jpg" alt="A blue and yellow superhero ponting at you" class="img-fluid"></a>
+				</figure>
+				<p class="lead">"Red" By George Hans</p>
+			</div>
+			<div class="col-sm-4 item" data-tags="hans, knight">
+				<figure>
+					<img src="images/knight.jpg" alt="An ink drawing of a giant kaiju-like monster" class="img-fluid"></a>
+				</figure>
+				<p class="lead">"The Lion Knight" By George Hans</p>
+				<p></p>
+			</div>
+			
+	
+		</div>
+		
+		<div class="row">
+		
+			<div class="col-sm-4 item" data-tags="hernandez, monster">
+				<figure>
+					<img src="images/shortle.jpg" alt="A sketch of a pig-like creature" class="img-fluid"></a>
+				</figure>
+				<p class="lead">"Shortle" By Cassie Hernandez</p>
+			</div>
+			<div class="col-sm-4 item" data-tags="hans, pokemon">
+				<figure>
+					<img src="images/poliwhirl.jpg" alt="A Pokemon trainer with a Poliwhirl" class="img-fluid"></a>
+				</figure>
+				<p class="lead">"Poliwhirl" By George Hans</p>
+			</div>
+			<div class="col-sm-4 item" data-tags="larson, superhero">
+				<figure>
+					<img src="images/batman.jpg" alt="A black and red drawing of a new Batman." class="img-fluid"></a>
+				</figure>
+				<p class="lead">"Batman: Sunset" By Carter Larson</p>
+				<p></p>
+			</div>
+			
+			<div class="row">
+		
+			<div class="col-sm-4 item" data-tags="renold, monster">
+				<figure>
+					<img src="images/genie.jpg" alt="A sketch of a one eyed genie" class="img-fluid"></a>
+				</figure>
+				<p class="lead">"The Genie" By Rebecca Renold</p>
+			</div>
+			<div class="col-sm-4 item" data-tags="renold, monster">
+				<figure>
+					<img src="images/ghost.jpg" alt="A sketch of a white covered possesed by a ghostS" class="img-fluid"></a>
+				</figure>
+				<p class="lead">"The blanket" By George Hans</p>
+			</div>
+			<div class="col-sm-4 item" data-tags="hernandez, kitchen">
+				<figure>
+					<img src="images/kitchen.jpg" alt="A calm scene of a woman in the kitchen" class="img-fluid"></a>
+				</figure>
+				<p class="lead">"The Kitchen" By Cassie Hernandez</p>
+				<p></p>
+			</div>
+			
+	
+		</div>
+		</div>
+	
+	</main>
+            
+    <!-- Footer -->
+    <footer class="jumbotron-fluid text-center bg-purple p-5">
+       
+        <div class="container text-white">
+            <p>&copy; Copyright 2025. All Rights Reserved.</p>
+            <p><a href="mailto:1234567890" class="text-white">clarson@email.com</a></p>
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook-logo.png" alt="Facebook logo" class="pr-4"></a> 
+            <a href="https://twitter.com" target="_blank"><img src="images/twitter-logo.png" alt="Twitter logo"></a> 
+        </div>
+        
+    </footer>  
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="js/gallery.js"></script>
+  </body>
+</html>
